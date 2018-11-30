@@ -1491,7 +1491,7 @@ define(function(require, exports, module) {
         function updateMenuCaptions() {
             // map paths to captions
             var captions = {
-                "Cloud9": "CS50 IDE",
+                "Cloud9": "EDUTIN IDE",
                 "Cloud9/Quit Cloud9": "Log Out",
                 "Goto": "Go",
                 "Goto/Goto Anything...": "Anything...",
@@ -1512,7 +1512,7 @@ define(function(require, exports, module) {
          * Sets and updates the title of the browser tab.
          */
         function updateTitle(tab) {
-            var title = "CS50 IDE";
+            var title = "EDUTIN IDE";
 
             // append "Offline" to offline IDE title
             if (!c9.hosted)
