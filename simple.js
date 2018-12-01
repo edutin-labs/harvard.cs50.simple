@@ -1515,8 +1515,8 @@ define(function(require, exports, module) {
             var title = "EDUTIN IDE";
 
             // append "Offline" to offline IDE title
-            if (!c9.hosted)
-                title += " Offline";
+            //if (!c9.hosted)
+                //title += " Offline";
 
             // prepend tab title when should
             document.title = tab && settings.getBool("user/tabs/@title")
